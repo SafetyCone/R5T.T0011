@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0011.Construction", "R5T.T0011.Construction\R5T.T0011.Construction.csproj", "{D6C700AD-110E-4EA4-84B8-3196B2F019B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.T0011.Construction", "R5T.T0011.Construction\R5T.T0011.Construction.csproj", "{D6C700AD-110E-4EA4-84B8-3196B2F019B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0011", "R5T.T0011\R5T.T0011.csproj", "{4FA38AD2-B2AE-452A-9B7D-81CBBCE7F265}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.T0011", "R5T.T0011\R5T.T0011.csproj", "{4FA38AD2-B2AE-452A-9B7D-81CBBCE7F265}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{4E62E72A-B6DD-4F00-A7CB-8EEFFC44271C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Dacia", "..\..\R5T.Dacia\source\R5T.Dacia\R5T.Dacia.csproj", "{155936D4-04B6-4115-8E06-5528538D4170}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.L0002", "..\..\R5T.L0002\source\R5T.L0002\R5T.L0002.csproj", "{C0210715-F91D-4589-9F85-1646CB19F927}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D6C700AD-110E-4EA4-84B8-3196B2F019B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -44,5 +47,39 @@ Global
 		{4FA38AD2-B2AE-452A-9B7D-81CBBCE7F265}.Release|x64.Build.0 = Release|Any CPU
 		{4FA38AD2-B2AE-452A-9B7D-81CBBCE7F265}.Release|x86.ActiveCfg = Release|Any CPU
 		{4FA38AD2-B2AE-452A-9B7D-81CBBCE7F265}.Release|x86.Build.0 = Release|Any CPU
+		{155936D4-04B6-4115-8E06-5528538D4170}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{155936D4-04B6-4115-8E06-5528538D4170}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{155936D4-04B6-4115-8E06-5528538D4170}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{155936D4-04B6-4115-8E06-5528538D4170}.Debug|x64.Build.0 = Debug|Any CPU
+		{155936D4-04B6-4115-8E06-5528538D4170}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{155936D4-04B6-4115-8E06-5528538D4170}.Debug|x86.Build.0 = Debug|Any CPU
+		{155936D4-04B6-4115-8E06-5528538D4170}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{155936D4-04B6-4115-8E06-5528538D4170}.Release|Any CPU.Build.0 = Release|Any CPU
+		{155936D4-04B6-4115-8E06-5528538D4170}.Release|x64.ActiveCfg = Release|Any CPU
+		{155936D4-04B6-4115-8E06-5528538D4170}.Release|x64.Build.0 = Release|Any CPU
+		{155936D4-04B6-4115-8E06-5528538D4170}.Release|x86.ActiveCfg = Release|Any CPU
+		{155936D4-04B6-4115-8E06-5528538D4170}.Release|x86.Build.0 = Release|Any CPU
+		{C0210715-F91D-4589-9F85-1646CB19F927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0210715-F91D-4589-9F85-1646CB19F927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0210715-F91D-4589-9F85-1646CB19F927}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C0210715-F91D-4589-9F85-1646CB19F927}.Debug|x64.Build.0 = Debug|Any CPU
+		{C0210715-F91D-4589-9F85-1646CB19F927}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C0210715-F91D-4589-9F85-1646CB19F927}.Debug|x86.Build.0 = Debug|Any CPU
+		{C0210715-F91D-4589-9F85-1646CB19F927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0210715-F91D-4589-9F85-1646CB19F927}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0210715-F91D-4589-9F85-1646CB19F927}.Release|x64.ActiveCfg = Release|Any CPU
+		{C0210715-F91D-4589-9F85-1646CB19F927}.Release|x64.Build.0 = Release|Any CPU
+		{C0210715-F91D-4589-9F85-1646CB19F927}.Release|x86.ActiveCfg = Release|Any CPU
+		{C0210715-F91D-4589-9F85-1646CB19F927}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{155936D4-04B6-4115-8E06-5528538D4170} = {4E62E72A-B6DD-4F00-A7CB-8EEFFC44271C}
+		{C0210715-F91D-4589-9F85-1646CB19F927} = {4E62E72A-B6DD-4F00-A7CB-8EEFFC44271C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C00AACC0-FF5F-4F8C-92E5-EF52115782A6}
 	EndGlobalSection
 EndGlobal
